@@ -4,5 +4,8 @@ public class Main {
         SalesManager manager = new SalesManager(sales);
         int max = manager.max();
         System.out.println("Максимум продаж в день - " + max);
+        
+        int stat = manager.stat();
+        System.out.println("Обрезанное среднее равно: " + stat);
     }
 }
