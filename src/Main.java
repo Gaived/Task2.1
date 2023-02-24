@@ -5,7 +5,7 @@ public class Main {
         long max = manager.max();
         System.out.println("Максимум продаж в день - " + max);
         
-        int stat = manager.stat();
+        long stat = manager.stat();
         System.out.println("Обрезанное среднее равно: " + stat);
     }
 }

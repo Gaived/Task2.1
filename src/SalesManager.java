@@ -14,12 +14,12 @@ public class SalesManager {
         }
         return max;
     }
-    public int stat() {
-        int minP = sales[0];
-        int maxP = sales[0];
-        int sumP = 0;
-        int stat = 0;
-        for (int sale : sales) {
+    public long stat() {
+        long minP = sales[0];
+        long maxP = sales[0];
+        long sumP = 0;
+        long stat = 0;
+        for (long sale : sales) {
             if (sale < minP) {
                 minP = sale;
             }
